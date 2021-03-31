@@ -1,0 +1,93 @@
+2
+(NV603, 92, 324, 53800, 500)
+(NV604, 128, 512, 87800, 800)
+2
+(c3.large.4, 2, 8, 0)
+(c3.8xlarge.2, 32, 64 ,1)
+3
+2
+(add, c3.large.4, 5)
+(add, c3.large.4, 0)
+2
+(del, 0)
+(add, c3.8xlarge.2, 1)
+3
+(add, c3.large.4, 2)
+(del, 1)
+(del, 2)
+2
+(add, c3.large.4, 11)
+(add, c3.large.4, 12)
+2
+(add, c3.large.4, 13)
+(add, c3.large.4, 14)
+2
+(add, c3.large.4, 15)
+(add, c3.large.4, 16)
+2
+(add, c3.large.4, 17)
+(add, c3.large.4, 18)
+2
+(add, c3.large.4, 19)
+(add, c3.large.4, 80)
+2
+(add, c3.large.4, 21)
+(add, c3.large.4, 22)
+2
+(add, c3.large.4, 23)
+(add, c3.large.4, 24)
+2
+(add, c3.large.4, 25)
+(add, c3.large.4, 26)
+2
+(add, c3.large.4, 27)
+(add, c3.large.4, 28)
+2
+(add, c3.large.4, 29)
+(add, c3.large.4, 30)
+2
+(add, c3.large.4, 31)
+(add, c3.large.4, 32)
+2
+(add, c3.large.4, 33)
+(add, c3.large.4, 34)
+2
+(add, c3.large.4, 35)
+(add, c3.large.4, 36)
+2
+(add, c3.large.4, 37)
+(add, c3.large.4, 38)
+2
+(add, c3.large.4, 39)
+(add, c3.large.4, 40)
+2
+(add, c3.large.4, 41)
+(add, c3.large.4, 42)
+2
+(add, c3.large.4, 43)
+(add, c3.large.4, 44)
+2
+(add, c3.large.4, 45)
+(add, c3.large.4, 46)
+(add, c3.large.4, 47)
+(add, c3.large.4, 48)
+(add, c3.large.4, 49)
+(add, c3.large.4, 50)
+(add, c3.large.4, 51)
+(add, c3.large.4, 52)
+(add, c3.large.4, 53)
+(add, c3.large.4, 54)
+(add, c3.large.4, 55)
+(add, c3.large.4, 56)
+(add, c3.large.4, 57)
+(add, c3.large.4, 58)
+(add, c3.large.4, 59)
+(add, c3.large.4, 60)
+(add, c3.large.4, 61)
+(add, c3.8xlarge.2, 62)
+(add, c3.8xlarge.2, 63)
+(add, c3.8xlarge.2, 64)
+(add, c3.8xlarge.2, 65)
+(add, c3.8xlarge.2, 66)
+(add, c3.8xlarge.2, 67)
+(add, c3.8xlarge.2, 68)
