@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386d8184-8434-48ef-8fbc-be67b1f655bf" name="Default Changelist" comment="">
+    <list default="true" id="386d8184-8434-48ef-8fbc-be67b1f655bf" name="Default Changelist" comment="Initial commit">
       <change afterPath="$PROJECT_DIR$/dataStructure/tree/AVL.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dataStructure/tree/RBT.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dataStructure/tree/union_find/uf_arr.go" afterDir="false" />
@@ -34,6 +34,11 @@
   </component>
   <component name="GOROOT" path="E:\install\Go\go1.15.2" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="snow" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
@@ -119,18 +124,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1617714781921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1617714781921" />
     <state x="262" y="212" width="1092" height="793" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616026972692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="262" y="212" width="1092" height="793" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616026972692" />
-    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1617199106371">
+    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1617714831197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617199106371" />
+    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617714831197" />
     <state x="865" y="358" key="FileChooserDialogImpl" timestamp="1616026967357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
