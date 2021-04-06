@@ -9,7 +9,6 @@ import (
 //二分搜索树的每个节点的值大于其左子树所有的值，小于其所有右子树的值
 //BinarySearchTree
 type BST struct {
-	Node
 	Root *Node
 	Size int
 }
@@ -135,8 +134,8 @@ func (b *BST) postOder(node *Node) {
 	if node == nil {
 		return
 	}
-	b.postOder(b.Left)
-	b.postOder(b.Right)
+	b.postOder(node.Left)
+	b.postOder(node.Right)
 	fmt.Println(node.Value)
 }
 
@@ -144,9 +143,9 @@ func (b *BST) inOrder(node *Node) {
 	if node == nil {
 		return
 	}
-	b.inOrder(b.Left)
+	b.inOrder(node.Left)
 	fmt.Println(node.Value)
-	b.inOrder(b.Right)
+	b.inOrder(node.Right)
 }
 
 //层序遍历 广度优先遍历

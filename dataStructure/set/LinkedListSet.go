@@ -2,15 +2,15 @@ package set
 
 import (
 	"fmt"
-	"main.go/dataStructure/linkList"
+	"main.go/dataStructure/link_list"
 )
 
 type LinkedListSet struct {
-	linkList.LinkList
+	link_list.LinkList
 }
 
 func NewLinkedListSet() *LinkedListSet {
-	return &LinkedListSet{*linkList.NewLinkList()}
+	return &LinkedListSet{*link_list.NewLinkList()}
 }
 
 func (l *LinkedListSet) GetSize() int {

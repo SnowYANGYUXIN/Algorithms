@@ -21,14 +21,18 @@ func main() {
 	//queue.TestMyStack() //队列实现栈
 	//queue.TestPriorityQueue() //优先队列
 
-	//linkList.TestLinkList() //链表
-	//linkList.TestLinkedListStack() //链表实现栈
-	//linkList.TestLinkedListQueue() //链表实现队列
-	//linkList.TestLinkedListR() //递归链表
+	//link_list.TestLinkList() //链表
+	//link_list.TestLinkedListStack() //链表实现栈
+	//link_list.TestLinkedListQueue() //链表实现队列
+	//link_list.TestLinkedListR() //递归链表
 
 	//tree.TestBinarySearchTree() //搜索二叉树
 	//tree.TestSegmentTree() //线段树
-	tree.TestTrieTree() //字典树
+	//tree.TestTrieTree() //字典树
+	//tree.TestAVLTree() //AVL树
+	tree.TestRedBlackTree() //红黑树
+
+	//union_find.TestUnionFind()//并查集
 
 	//set.TestBSTSET() //二分搜索树实现集合
 	//set.TestLinkedListSet() //链表实现集合

@@ -1,4 +1,4 @@
-package linkList
+package link_list
 
 type ListNode struct {
 	Val  int
@@ -10,7 +10,7 @@ func removeElements(head *ListNode, val int) *ListNode {
 	dummyHead := &ListNode{Val: -1}
 	dummyHead.Next = head
 	prev := dummyHead
-	for ; prev.Next != nil; {
+	for prev.Next != nil {
 		if prev.Next.Val == val {
 			delNode := prev.Next
 			prev.Next = delNode.Next
@@ -44,7 +44,7 @@ func reverseList(head *ListNode) *ListNode {
 	pre = nil //指向当前结点的前一个结点
 	cur = head
 	next = head.Next
-	for ; cur.Next != nil; {
+	for cur.Next != nil {
 		cur.Next = pre
 
 		pre = cur
@@ -63,6 +63,6 @@ func reverseList2(head *ListNode) *ListNode {
 
 	rev := reverseList2(head.Next)
 	head.Next.Next = head //现在这么想，假如从第一个开始，后面的链表已经翻转完成了，即第二个结点的next指向null，现在将其指向第一个结点
-	head.Next = nil //第一个结点的next再指向nil
+	head.Next = nil       //第一个结点的next再指向nil
 	return rev
 }

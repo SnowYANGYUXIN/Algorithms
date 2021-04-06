@@ -1,4 +1,4 @@
-package linkList
+package link_list
 
 import "fmt"
 
@@ -32,14 +32,14 @@ func (l *LinkedListStack) Peek() int {
 
 func (l *LinkedListStack) ToString() string {
 	var str string
-	str+="Stack: top "
-	str+=l.LinkList.ToString()
+	str += "Stack: top "
+	str += l.LinkList.ToString()
 	return str
 }
 
-func TestLinkedListStack(){
-	stack:=NewLinkedListStack()
-	for i:=0;i<5;i++{
+func TestLinkedListStack() {
+	stack := NewLinkedListStack()
+	for i := 0; i < 5; i++ {
 		stack.Push(i)
 	}
 	fmt.Println(stack.ToString())

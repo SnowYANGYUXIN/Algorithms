@@ -1,4 +1,4 @@
-package linkList
+package link_list
 
 import (
 	"fmt"
@@ -61,9 +61,9 @@ func (l *LinkedListQueue) GetFront() int {
 
 func (l *LinkedListQueue) ToString() string {
 	var str string
-	str+="Queue: front "
+	str += "Queue: front "
 	cur := l.Head
-	for ; cur != nil; {
+	for cur != nil {
 		str += strconv.Itoa(cur.Data) + "->"
 		cur = cur.Next
 	}
@@ -71,7 +71,7 @@ func (l *LinkedListQueue) ToString() string {
 	return str
 }
 
-func test(a ,b,c int){
+func test(a, b, c int) {
 
 }
 

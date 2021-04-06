@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386d8184-8434-48ef-8fbc-be67b1f655bf" name="Default Changelist" comment="" />
+    <list default="true" id="386d8184-8434-48ef-8fbc-be67b1f655bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dataStructure/tree/AVL.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/tree/RBT.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/tree/union_find/uf_arr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/tree/union_find/uf_tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/tree/union_find/union_find.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/heap/MaxHeap.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/heap/max_heap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/linkList/leetcod.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/link_list/leetcod.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/linkList/linkList.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/link_list/linkList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/linkList/linkListQueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/link_list/linkListQueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/linkList/linkListR.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/link_list/linkListR.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/linkList/linkListStack.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/link_list/linkListStack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/set/LinkedListSet.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/set/LinkedListSet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/tree/BST.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/tree/BST.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/tree/TrieTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/tree/trie_tree/TrieTree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/tree/leetcodeTrie.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/tree/trie_tree/leetcodeTrie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +33,14 @@
     </option>
   </component>
   <component name="GOROOT" path="E:\install\Go\go1.15.2" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1pFF1irkkikAgVdq5gKfXfjxn8C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GO\project\Algorithms\dataStructure\tree\trie_tree" />
+      <recent name="F:\GO\project\Algorithms\dataStructure\tree\union_find" />
       <recent name="F:\GO\project\Algorithms\dataStructure\map\LinkedListMap" />
       <recent name="F:\GO\project\Algorithms\huawei" />
       <recent name="F:\GO\project\Algorithms" />
-      <recent name="F:\GO\project\Algorithms\algorithms" />
-      <recent name="F:\GO\project\Algorithms\dataStructure" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.main">
@@ -105,10 +127,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="262" y="212" width="1092" height="793" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616026972692" />
+    <state x="558" y="81" key="CommitChangelistDialog2" timestamp="1617199106371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617199106371" />
     <state x="865" y="358" key="FileChooserDialogImpl" timestamp="1616026967357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="865" y="358" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616026967357" />
+    <state x="827" y="417" key="Github.ShareDialog" timestamp="1617198438007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617198438007" />
+    <state x="803" y="219" key="Github.UntrackedFilesDialog" timestamp="1617198449644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="219" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617198449644" />
     <state width="1470" height="291" key="GridCell.Tab.0.bottom" timestamp="1617156605117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -141,9 +175,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1470" height="422" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617084263615" />
-    <state x="951" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1616897178885">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617199112623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="951" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616897178885" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617199112623" />
+    <state x="951" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1617506014408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="951" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617506014408" />
   </component>
 </project>

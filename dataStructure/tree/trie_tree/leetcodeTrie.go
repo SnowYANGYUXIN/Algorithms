@@ -1,4 +1,4 @@
-package tree
+package trie_tree
 
 // 211添加与搜索单词
 type WordDictionary struct {

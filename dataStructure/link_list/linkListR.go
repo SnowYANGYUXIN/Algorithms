@@ -1,4 +1,4 @@
-package linkList
+package link_list
 
 import (
 	"fmt"
@@ -79,7 +79,7 @@ func (l *LinkedListR) Set(index, e int) {
 
 func (l *LinkedListR) SetRec(node *LinkedListR, index, e int) *LinkedListR {
 	if index == 0 {
-		return &LinkedListR{Data: e,Next: node.Next}
+		return &LinkedListR{Data: e, Next: node.Next}
 	}
 	node.Next = l.SetRec(node.Next, index-1, e)
 	return node
@@ -96,7 +96,7 @@ func (l *LinkedListR) IsEmpty() bool {
 func (l *LinkedListR) ToString() string {
 	var str string
 	cur := l.Head
-	for ; cur.Next != nil; {
+	for cur.Next != nil {
 		str += strconv.Itoa(cur.Data) + "->"
 		cur = cur.Next
 	}

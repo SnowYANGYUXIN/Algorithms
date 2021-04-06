@@ -1,4 +1,4 @@
-package linkList
+package link_list
 
 import (
 	"fmt"
@@ -33,7 +33,6 @@ func (l *LinkList) Add(index, e int) {
 	l.Size++
 
 }
-
 
 func (l *LinkList) AddFirst(e int) {
 	l.Add(0, e)
@@ -116,7 +115,7 @@ func (l *LinkList) Set(index, e int) {
 
 func (l *LinkList) Contains(e int) bool {
 	cur := l.DummyHead.Next
-	for ; cur != nil; {
+	for cur != nil {
 		if cur.Data == e {
 			return true
 		}
@@ -136,7 +135,7 @@ func (l *LinkList) IsEmpty() bool {
 func (l *LinkList) ToString() string {
 	var str string
 	cur := l.DummyHead.Next
-	for ; cur != nil; {
+	for cur != nil {
 		str += strconv.Itoa(cur.Data) + "->"
 		cur = cur.Next
 	}
